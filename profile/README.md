@@ -4,7 +4,7 @@
 
 🌈 Contribution guidelines - You can get involved by submitting pull requests, ideas or just sending us a message.<br />
 
-Please feel free to contribute or upload any models you have. We recommend using streamlit cloud to deploy them, which can be found here: https://streamlit.io/ 
+Please feel free to contribute or upload any models you have. We recommend using streamlit cloud to deploy them, which can be found here: https://streamlit.io/. Here is an example model deployed on the platform: https://donanumabmodel.streamlit.app/
 
 If you are not a coder, we recommend using a GPT chat model of your choice to work out how to build and deploy the apps. We have written a guide to getting started with Python here: https://mattstammers.github.io/hdruk_avoidable_admissions_collaboration_docs/how_to_guides/new_to_python/
 
