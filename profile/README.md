@@ -44,5 +44,5 @@ streamlit run {name_of_file.py}
 
 👩‍💻 Useful resources - The PyPI repository for ASDM can be found here: (https://pypi.org/project/asdm/). Here you will also find the ASDM setup guide.<br />
 
-🧙 What's Coming Next? The first Python SD models are now available with more to follow. Watch this space
+🧙 What's Coming Next? The first Python SD models are now available, with more to follow. Watch this space. If you want to give feedback, please do. The best way is to lodge an issue on a repository explaining the problem and we will do our best to try and address it. 
 
