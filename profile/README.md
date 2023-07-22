@@ -1,12 +1,20 @@
 ## Hi there 👋
 
-🙋‍♀️ Welcome to Really Useful Models or RUM. Our not-for-profit mission is to bring open-source system dynamics modelling to the world.<br />
+🙋‍♀️ Welcome to Really Useful Models or RUM. Our not-for-profit mission is to bring open-source system dynamics modelling to the world and particularly the NHS.<br />
+
+System Dynamics (SD) in the NHS is a bit of a dark art. I found it very hard when it was first explained to me. There is also an idea that it is somehow not useful compared to machine learning but this is incorrect - both are useful. Both Wang and Matt are pretty good at machine learning but they also both love SD. This is why they created ASDM or Agile System Dynamics Modelling.
+
+Wang was the first to realize that there was a need for a new framework. PySD is great for newcomers but as soon as SD models get complicated it falls over, as do the other frameworks out there. Python is not a quick language so he has spent a lot of time improving its speed and balancing this with accessibility. It is designed such that machine learning inputs or outputs can be subsequently added but the core focus is on having a really robust SD engine with support for complex arrays. 
+
+Matt has spent a lot of time experimenting with Streamlit and ways to deploy the software fully open source without scale penalty in a way that people within the NHS can access. Making the frontend more accessible and testing the backend to make it more robust has been his main focus. Now it is finally ready for the world to start trying it out.
+
+We have very much been working this out iteratively over time but the core focus is making it easier to openly deploy useful models in a non-arcane/scary way. There is a bit of coding involved but we aim to keep this as simple as possible and simplify it further over time. The even better news these days is that if you are not a coder you can just use chatGPT (or another GPT model of your choice - BARD/Llama2 if you prefer open source to work out how to build and deploy the apps. 
+
+Matt has also written a guide to getting started with Python here: https://mattstammers.github.io/hdruk_avoidable_admissions_collaboration_docs/how_to_guides/new_to_python/
 
 🌈 Contribution guidelines - You can get involved by submitting pull requests, ideas or just sending us a message.<br />
 
 Please feel free to contribute or upload any models you have. We recommend using streamlit cloud to deploy them, which can be found here: https://streamlit.io/. Here is an example model deployed on the platform: https://donanumabmodel.streamlit.app/
-
-If you are not a coder, we recommend using a GPT chat model of your choice to work out how to build and deploy the apps. We have written a guide to getting started with Python here: https://mattstammers.github.io/hdruk_avoidable_admissions_collaboration_docs/how_to_guides/new_to_python/
 
 To set the environment up to start coding clone a template app using for example:
 
