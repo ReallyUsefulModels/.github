@@ -91,8 +91,11 @@ Then you can call ```git add .``` and ```git commit -m "message"``` as needed wh
 git push
 ```
 
-And your work will be stored in the RUM repository. 
+The first time you do this you will need to set the upstream branch but then all your work will be stored in the RUM repository branch and can be merged to main when finished. To test Streamlit locally you just need to call this and it will run in your local browser:
 
-If you are not a member yet or get another issue just email us at the email address above 😊
+```python
+streamlit run [name_of_app.py]
+```
+Good luck! If you are not a member yet or get another issue just email us at the email address above 😊. The aim is for this to be an open and inclusive community of SD modellers.
 
 Happy Coding! 🙌
