@@ -1,4 +1,4 @@
-## Hi there 👋
+## Welcome to Really Useful Models (RUM) 👋
 
 🙋‍♀️ Welcome to Really Useful Models or RUM. Our not-for-profit mission is to bring open-source system dynamics modelling to the world and particularly the NHS.<br />
 
@@ -21,8 +21,10 @@ Please feel free to contribute or upload any models you have. We recommend using
 If you have done a bit of programming before it should be easy. To set the environment up to start coding clone a template app using for example:
 
 ```sh
-git clone https://github.com/ReallyUsefulModels/Donanumab_Model.git
+git clone https://github.com/ReallyUsefulModels/Smoking_Cessation_Training.git
 ```
+
+or click on the repository and create a new repository using the template of your choice (described more below).
 
 Then make sure pipenv is installed:
 
@@ -54,6 +56,7 @@ streamlit run {name_of_file.py}
 
 👩‍💻 Useful resources - The main PyPI repository for ASDM can be found here: (https://pypi.org/project/asdm/). Here you will also find the ASDM setup guide.<br />
 
+#### Recommended External Resources
 There are also some very useful online SD resources available such as: 
 
 - https://github.com/JimDuggan/SDMR. For R lovers.
@@ -62,3 +65,34 @@ There are also some very useful online SD resources available such as:
 
 🧙 If you want to give feedback, please do. The best way is to lodge an issue on a repository explaining the problem and we will do our best to try and address it. We have three models live currently of 3 levels of complexity and difficulty to learn.
 
+1. Introductory: https://smokingcessation.streamlit.app/ - This repository features the tutorial and is easy for even those new to SD to get their heads around.
+2. Moderate: https://electiverecovery.streamlit.app/ - This repository features the NHS elective recovery model which is fairly complicated and takes a bit of thinking to understand. However, it features a mini notebook tutorial to introduce users to some of the more complex elements of ASDM.
+3. Advanced: https://donanumabmodel.streamlit.app/ - This repository features the donanumab model (a new anti-dementia drug). The model introduces users to graph functions and networkx digraphs so is recommended for users used to using ASDM.
+
+### How to Use Templates
+
+These three notebooks serve as the base templates. For new members or users using ASDM for the first time we recommend cloning or using the smoking cessation template to get started. Just go to this URL: https://github.com/ReallyUsefulModels/Smoking_Cessation_Training/tree/main and click use this template to create a new repository from the base template.
+
+It is generally best to develop on your own local machine so once you have named your repository you should call:
+
+```git
+git clone [name of repository.git]
+```
+
+If you click the clone button it will give you the link you need to clone the repository. Then you can code on your local machine. To create a branch call:
+
+```git
+git checkout -b "[name of new branch]"
+```
+
+Then you can call ```git add .``` and ```git commit -m "message"``` as needed while you are developing. When you are finished call:
+
+```git
+git push
+```
+
+And your work will be stored in the RUM repository. 
+
+If you are not a member yet or get another issue just email us at the email address above 😊
+
+Happy Coding! 🙌
