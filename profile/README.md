@@ -2,19 +2,19 @@
 
 🙋‍♀️ Welcome to Really Useful Models or RUM. Our not-for-profit mission is to bring open-source system dynamics modelling to the world and particularly the NHS.<br />
 
-System Dynamics (SD) in the NHS is a bit of a dark art. I found it very hard when it was first explained to me. There is also an idea that it is somehow not useful compared to machine learning but this is incorrect - both are useful. The creators of this repo (primarily Wang Zhao and Matt Stammers) are pretty good at machine learning but they also both love SD. This is why they created ASDM or Agile System Dynamics Modelling.
+System Dynamics (SD) in the NHS is a bit of a dark art. I (Matt) found it very hard when it was first explained to me. There is also an idea that it is somehow not useful compared to machine learning but this is incorrect - both are useful. The creators of this repo (primarily Wang Zhao and Matt Stammers) are pretty good at machine learning but they also both love SD. This is why they created ASDM or Agile System Dynamics Modelling.
 
-Wang was the first to realize that there was a need for a new framework. PySD is great for newcomers but as soon as SD models get complicated it falls over, as do the other frameworks out there. Python is not a quick language so he has spent a lot of time improving its speed and balancing this with accessibility. It is designed such that machine learning inputs or outputs can be subsequently added but the core focus is on having a really robust SD engine with support for complex arrays. 
+Wang was the first to realize that there was a need for a new framework and had been working on ASDM for a while. PySD is great for newcomers and highly accessible but the compiler doesn't work for very complex models out of the box. Python is not a quick language so Wang spent a lot of time improving its speed and balancing this with accessibility. It is designed such that machine learning inputs or outputs can be subsequently added but the core focus is on having a really robust SD engine with support for complex arrays. 
 
-Matt has spent a lot of time experimenting with Streamlit and ways to deploy the software fully open source without scale penalty in a way that people within the NHS can access. Making the frontend more accessible and testing the backend to make it more robust has been his main focus. Now it is finally ready for the world to start trying it out.
+Matt has spent a lot of time experimenting with Streamlit and ways to deploy the software fully open source without scale penalty in a way that people within the NHS can access. Making the frontend more accessible, the backend more robust, and adding some dev-ops and product design to the process has been his focus. After around a year of tinkering, it is finally ready for the world to start trying it out properly. 
 
-We have very much been working this out iteratively over time but the core focus is making it easier to openly deploy useful models in a non-arcane/scary way. There is a bit of coding involved but we aim to keep this as simple as possible and simplify it further over time. The even better news these days is that if you are not a coder you can just use chatGPT (or another GPT model of your choice - BARD/Llama2 if you prefer open source to work out how to build and deploy the apps. 
+There is a bit of coding involved but we aim to keep this as simple as possible and simplify it further over time. The even better news these days is that if you are not a coder you can use chatGPT (or another GPT model of your choice - BARD/Llama2 if you prefer open source to work out how to build and deploy apps yourself.
 
 Matt has also written a guide to getting started with Python here which was originally written for a HDRUK project but is also suitable for those wishing to use ASDM https://mattstammers.github.io/hdruk_avoidable_admissions_collaboration_docs/how_to_guides/new_to_python/
 
 🌈 Contribution guidelines - You can get involved by submitting pull requests, ideas or just sending us a message.<br />
 
-Please feel free to contribute or upload any models you have. We recommend using streamlit cloud to deploy them, which can be found here: https://streamlit.io/. The available example models are listed at the bottom. 
+Please feel free to contribute or upload any models you have. We recommend using streamlit cloud to deploy them, which can be found here: https://streamlit.io/. The available example models are listed at the bottom. Obviously don't share anything which needs to be protected but any open-source models can easily be deployed here using streamlit cloud. 
 
 ### Getting Started
 
